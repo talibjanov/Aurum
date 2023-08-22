@@ -1,0 +1,719 @@
+@media(max-width: 1340px) {
+    .main__info-about{
+        justify-content: space-around;
+    }
+
+    .adblue__correctly-title{
+        display: inline-block;
+    }
+}
+
+@media(max-width: 1160px) {
+    .main__bestclient-content{
+        gap: 30px;
+    }
+
+    .three__fact-tabs{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1120px) {
+    .adblue__correctly-box{
+        gap: 50px;
+        padding: 0 10px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .main__clients-item2{
+        gap: 50px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .main__application-form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 12px;
+    }
+
+    .main__application-form button{
+        padding: 10px 12px;
+    }
+
+    .footer__position{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__bottom{
+    max-width: 900px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 12px;
+    margin-top: 100px;
+    }
+
+}
+
+@media(max-width: 1070px){
+  .main__clients-item2{
+    column-gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header__navbar-list{
+    gap: 25px;
+
+    flex-direction: column;
+  }
+
+  .main__about{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+}
+
+@media(max-width: 1060px){
+
+  .adblue__order-shop{
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .main__bestclient-content{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adBlue_correctly{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adblue__correctly-box{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__adblue-order{
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+
+}
+
+@media(max-width: 920px){
+    .header__burger{
+        display: flex;
+        order: 1;
+    }
+    
+    .header__navbar-list{
+    position:fixed;
+    align-items: center;
+    flex-direction: column;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.355);
+    backdrop-filter: blur(4px);
+    transition: 0.4s ease-in-out;
+    max-width: 300px;
+    width: 100%;
+    padding: 30px;
+    z-index: 100;
+}
+
+.header__navbar-link{
+    border-bottom: 1px solid grey;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.header__burger:focus~.header__navbar-list{
+    right: 0;
+}
+
+.header__navbar-contact{
+    position:fixed;
+    align-items: center;
+    right: -100%; 
+    top: 300px;
+    padding: 30px;
+    z-index: 101;
+    transition: 0.4s ease-in-out;
+}
+
+.header__burger:focus~.header__navbar-contact{
+    right: 0;
+    
+}
+
+    .header__center-about{
+        background: rgba(35, 35, 49, 0.7);
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .header__center-title{
+        position: absolute;
+        top: 25px;
+        width: 248px;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    
+    .header__center-text{
+        position: absolute;
+        top: 150px;
+        width: 265px;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .header__center-in img{ 
+        width: 20px;
+        height: 32px;
+    }
+    
+    .header__in-text{
+        color: #FFF;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .header__center{
+        position: relative;
+    }
+    
+    .header__center-about{
+        position: absolute;
+        bottom: 0;
+    }
+    
+    
+}
+
+@media(max-width: 900px){
+    .main__job-catalog{
+        max-width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 890px){
+   .main__info-about{
+    max-width: 400px;
+    flex-wrap: wrap;
+   
+   }
+}
+
+@media(max-width: 765px){
+    .location iframe{
+      width: 500px;
+    }
+
+    .main__clients-item{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 20px;
+    }
+}
+
+@media(max-width: 620px){
+    .header__adblue-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__adblue-text{
+        font-size: 18px;
+        width: 400px;
+    }
+
+    .header__adblue-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .adblue__sale{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .main__info-about {
+        padding-bottom: 20px;
+    }
+
+    .main__box-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .main__box-title{
+        margin-bottom: 10px;
+    }
+
+    .main__box-title2{
+        margin-bottom: 10px;
+    }
+
+    .main__box-title3{
+        margin-bottom: 10px;
+    }
+
+    .main__box-text{
+        width: 400px;
+    }
+
+    .main__box-text2{
+        width: 400px;
+    }
+
+    .main__box-text3{
+        width: 400px;
+    }
+}
+
+@media(max-width: 600px){
+    .main__job-catalog{
+        margin-top: 50px;
+    }
+
+    .header__bottom {
+        margin-top: 20px;
+    }
+
+    .header__bottom-box{
+        border-radius: 10px;
+        width: 200px;
+    }
+
+    .header__bottom-text{
+        font-size: 18px;
+        padding: 50px 40px;
+        width: 250px;
+    }
+
+    .header__bottom-text2{
+        font-size: 18px;
+        padding: 50px 80px; 
+    }
+
+    .header__bottom-text4{
+        font-size: 18px;
+        padding: 50px 70px; 
+    }
+
+    .main__application-form input{
+      width: 250px;
+    }
+}
+
+@media(max-width: 580px) {
+    .bestclient-content-right{
+        width: 450px;
+    }
+
+    .form__tabs-gmailphone input{
+        width: 350px;
+    }
+}
+
+@media(max-width: 550px) {
+    .main__about-item img{
+        width: 400px;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .correctly__box-left{
+        width: 400px;
+    }
+
+    .correctly__box-right{
+        width: 400px;
+    }
+
+    .location iframe{
+        width: 100%;
+    }
+
+    .main__info-about{
+        flex-direction: column;
+    }
+
+    .main__about-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .main__about-text{
+        width: 400px;
+    }
+ 
+    .header__center-about{
+        gap: 15px;
+    }
+    
+}
+
+@media(max-width: 480px) {
+
+  .adblue__left-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .adblue__images-small{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .adblue__left-images > img{
+    width: 390px;
+    display: inline-block;
+  }
+
+  .adblue__order-right{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adblue__order-catalog{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .adblue__shop-btn{
+    margin-bottom: 10px;
+  }
+
+  .adblue__order-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .content__left-title{
+    width: 400px;
+  }
+
+  
+}
+
+@media(max-width: 450px) {
+  .main__about-text2{
+    width: 350px;
+  }
+
+  .main__job-box{
+    width: 100px;
+  }
+
+  .bestclient-content-right{
+    width: 300px;
+  }
+
+  .form__tabs-title{
+    width: 300px;
+    font-size: 12px;
+  }
+
+  .form__tabs-gmailphone input{
+    width: 270px;
+    padding: 20px 200px 17px 32px;
+  }
+
+  .adblue__images-small{
+    width: 200px;
+  }
+
+  .adblue__correctly-title{
+    width: 350px;
+    font-size: 28px;
+  }
+
+  .content__left-title{
+    width: 350px;
+    font-size: 28px;
+  }
+
+  .main__info-about{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main__delivery-content{
+    padding-top: 20px;
+  }
+}
+
+@media(max-width: 420px) {
+
+  .adblue__order-catalog{
+    flex-direction: column;
+  }
+
+  .main__info-about{
+    width: 300px;
+  }
+
+  .main__box-text{
+    width: 300px;
+  }
+  .main__box-text2{
+    width: 300px;
+  }
+  .main__box-text3{
+    width: 300px;
+  }
+
+  .ablue__delivery-text1{
+    font-size: 20px;
+  }
+
+  .ablue__delivery-text2{
+    font-size: 20px;
+  }
+
+  .correctly__box-left{
+   width: 350px;
+  }
+
+  .correctly__box-right{
+    width: 350px;
+  }
+
+  .correctly-left-text{
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .correctly-right-text{
+    width: 300px;
+    font-size: 14px;
+  }
+
+}
+
+@media(max-width: 400px) {
+
+  .main__about-text{
+    width: 300px;
+  }
+
+  .main__about-item img{
+    width: 250px;
+  }
+
+  .main__application-text{
+    display: none;
+  }
+
+  .adblue__left-images > img{
+    width: 300px;
+  }
+
+  .header__adblue-text{
+    width: 350px;
+    font-size: 16px;
+  }
+
+  .adblue__order-right{
+    width: 350px;
+  }
+
+  .ablue__order-title{
+    font-size: 25px;
+  }
+
+  .adblue__sale{
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 385px) {
+  .fact__tabs-box > img{
+    position: relative;
+    width: 300px;
+  }
+
+  .tabs__box-text{
+    position: absolute;
+    top: 50%;
+    width: 250px;
+    font-size: 16px;
+  }
+
+  .main__box-title{
+    text-align: center;
+    width: 350px;
+    font-size: 18px;
+  }
+
+  .main__box-title2{
+    text-align: center;
+    width: 350px;
+    font-size: 18px;
+    
+  }
+
+  .main__box-title3{
+    text-align: center;
+    width: 350px;
+    font-size: 18px;
+  }
+  
+}
+
+@media(max-width: 370px) {
+  .header__adblue-text{
+    width: 280px;
+  }
+
+  .adblue__correctly-title{
+    font-size: 25px;
+  }
+  
+  .correctly__box-left{
+    width: 280px;
+  }
+
+  .correctly__box-right{
+    width: 280px;
+  }
+}
+
+@media(max-width: 360px) {
+  .main__job-catalog p{
+    margin-top: 20px;
+    width: 100px;
+    font-size: 14px;
+  }
+  
+}
+
+@media(max-width: 350px) {
+
+    .logo{
+       margin-left: -30px;
+    }
+ 
+    .main__about-text2{
+        width: 250px;
+    }
+
+    .main__clients-item2{
+        width: 300px;
+    }
+
+    .main__ferma-box img{
+       width: 300px;
+    }
+
+    .main__ferma-box3 img{
+       width: 300px;
+    }
+
+    .adblue__order-phone input{
+        width: 250px;
+    }
+
+    .ablue__delivery-text1{
+        font-size: 16px;
+    }
+
+    .ablue__delivery-text2{
+        font-size: 16px;
+    }
+
+    .main__box-title{
+        width: 290px;
+        margin-right: 0px;
+    }
+
+    .main__box-title2{
+        width: 290px;
+        margin-right: 0px;
+    }
+
+    .main__box-title3{
+        width: 290px;
+        margin-right: 0px;
+    }
+
+    .three__fact-title{
+        font-size: 25px;
+    }
+
+    .adblue__order-right{
+        width: 300px;
+    }
+
+    .bestclient-content-left{
+        width: 300px;
+    }
+
+    .adblue__correctly-title{
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .content__left-title{
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .left__text-text{
+        width: 300px;
+    }
+  
+}
